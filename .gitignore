@@ -1,0 +1,17 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets - never commit these
+kaggle.json
+.env
+
+# Large files (dataset and trained models are not stored in the repo)
+data/*
+!data/.gitkeep
+*.zip
+models/*.keras
+models/*.h5
